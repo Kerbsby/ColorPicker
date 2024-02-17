@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/bf1c643ee2.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Color Changer</title>
+  </head>
+  <body>
+    <section id="color_nav">
+      <nav class="navbar navbar-expand-lg p-md-3">
+        <div class="container">
+          <h5 class="color-logo">Color <span class="picker">Picker</span></h5>
+
+          <button
+            type="button"
+            class="navbar-toggler"
+            data-bs-target="$navbarNav"
+            data-bs-toggler=" collapse"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle Navbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="mx-auto"></div>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link">Randomize</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a href="custom.html" class="nav-link">Custom</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <section id="body_section">
+      <div class="main-section w-100 vh-100 d-flex justify-content-center">
+        <div class="container">
+          <div class="content text-center">
+            <h2 class="color-word">
+              Background-color :
+              <span class="color"> #f1f5f8 </span>
+            </h2>
+          </div>
+
+          <div class="colorform">
+            <label for="colorInput">Enter Color Code:</label>
+            <input type="text" id="colorInput" placeholder="e.g. #ff0000" />
+          </div>
+          <div class="colorchange-btn"></div>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script type="text/javascript" src="colorcustomize.js"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"
+  ></script>
+</html>
